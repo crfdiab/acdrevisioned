@@ -7,6 +7,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "AriaDocs - Blog",
+  alternates: {
+    canonical: "https://acdrevisioned.vercel.app/blog",
+  }, 
 };
 
 export default async function BlogIndexPage() {
