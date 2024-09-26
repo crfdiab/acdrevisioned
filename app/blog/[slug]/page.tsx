@@ -19,6 +19,9 @@ export async function generateMetadata({ params: { slug } }: PageProps) {
   return {
     title: frontmatter.title,
     description: frontmatter.description,
+    alternates: {
+      canonical: `https://acdrevisioned.vercel.app/blog/${slug}`,
+    },
   };
 }
 
