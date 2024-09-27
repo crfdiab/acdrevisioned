@@ -59,8 +59,8 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        code: ["var(--font-geist-mono)"],
-        regular: ["var(--font-geist-sans)"],
+        sans: ["var(--font-lexend)", "sans-serif"],
+        code: ["var(--font-lexend)", "monospace"],
       },
       keyframes: {
         "accordion-down": {
